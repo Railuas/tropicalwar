@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Tropical Warfare — Paintball in St. Kitts</title><meta name="description" content="Tropical Warfare is St. Kitts' paintball experience. Book games 9am–5pm daily. Call +1 (869) 665-6777 or email skntropical.warfare@gmail.com."><meta property="og:title" content="Tropical Warfare — Paintball in St. Kitts"><meta property="og:description" content="Adrenaline-filled paintball in Basseterre. Open daily 9am–5pm. Book your squad now."><meta property="og:type" content="website"><meta property="og:url" content=""><meta property="og:image" content=""><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet"><link rel="icon" href='data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="%2384cc16"/><stop offset="1" stop-color="%23145a32"/></linearGradient></defs><rect x="6" y="6" rx="12" ry="12" width="52" height="52" fill="%230a0f0c" stroke="%231a2a22"/><path d="M18 40l6-16h4l-6 16h-4Z" fill="url(%23g)"/><circle cx="46" cy="18" r="6" fill="%2384cc16" opacity="0.8"/><circle cx="20" cy="50" r="3" fill="%2384cc16"/></svg>' type="image/svg+xml"><style>
+:root{
+--bg:#0b1611; --bg-soft:#132319; --panel:#112018; --text:#f2fbf5; --muted:#bdd4c4;
+--accent:#b4f25a; --accent-2:#d5ff7a; --stroke:#2b4a35; --shadow:0 18px 48px rgba(0,0,0,.45);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+background: radial-gradient(1600px 800px at 70% -20%, #235f3a 0%, var(--bg) 55%),
+linear-gradient(180deg, #0f1f14, #0b1611);
+color:var(--text);
+font:16px/1.6 "Inter", system-ui, -apple-system, Segoe UI, Roboto, Arial;
+min-height:100vh; overflow-x:hidden;
+}
+.noise{pointer-events:none;position:fixed;inset:0;opacity:.05;mix-blend-mode:overlay;
+background-image:url('data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%2290%22 height=%2290%22 viewBox=%220 0 90 90%22><filter id=%22n%22><feTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%222%22 stitchTiles=%22stitch%22/></filter><rect width=%2290%22 height=%2290%22 filter=%22url(%23n)%22 opacity=%220.35%22/></svg>');
+}
+.container{max-width:1120px;margin:0 auto;padding:0 20px}
+.section{padding:96px 0}
+.section--alt{background:linear-gradient(180deg,var(--bg) 0%, var(--bg-soft) 100%)}
+.section__title{font-size:32px;margin:0 0 16px}
+.eyebrow{color:var(--accent-2);letter-spacing:.2px;text-transform:uppercase;font-size:12px;font-weight:800}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:14px;padding:12px 18px;text-decoration:none;border:1px solid var(--stroke);color:var(--text);font-weight:700;transition:transform .15s ease, box-shadow .15s ease, background .2s ease}
+.btn--accent{background:linear-gradient(180deg,var(--accent-2),var(--accent));color:#031805;border:0;box-shadow:0 10px 26px rgba(132,204,22,.32)}
+.btn--accent:hover{transform:translateY(-1px);box-shadow:0 14px 36px rgba(132,204,22,.40)}
+.btn--ghost{background:transparent}
+.btn--ghost:hover{background:rgba(255,255,255,.06)}
+/* Header */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(5,10,7,.65);backdrop-filter:blur(10px);border-bottom:1px solid var(--stroke)}
+.site-header .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--text);font-weight:800;letter-spacing:.2px}
+.logo{width:36px;height:36px}
+.menu{display:flex;gap:18px}
+.menu a{color:var(--muted);text-decoration:none;font-weight:600}
+.menu a:hover{color:var(--text)}
+.burger{display:none;background:none;border:0;cursor:pointer}
+.burger span{display:block;width:24px;height:2px;background:#cbd5e1;margin:5px 0;transition:.2s all ease}
+.mobile{display:none;flex-direction:column;gap:12px;padding:14px 20px;border-top:1px solid var(--stroke);background:rgba(5,10,7,.9)}
+.mobile a{color:var(--text);text-decoration:none}
+@media (max-width: 880px){ .menu{display:none} .burger{display:block} .mobile[hidden]{display:none} .mobile{display:flex} }
+/* Hero */
+.hero{position:relative;padding:80px 0 40px}
+.hero__wrap{display:grid;grid-template-columns:1.15fr 1fr;gap:30px;align-items:center}
+.hero__copy h1{font-size:44px;line-height:1.08;margin:10px 0 10px}
+.hero__copy .sub{color:var(--muted);max-width:640px}
+.hero__copy .cta{display:flex;gap:12px;margin-top:18px;flex-wrap:wrap}
+@media (max-width: 960px){ .hero__wrap{grid-template-columns:1fr} .hero__copy h1{font-size:36px} }
+.device{border-radius:22px;border:1px solid var(--stroke);padding:12px;background:linear-gradient(180deg,#0e1511,#0c120d);box-shadow:var(--shadow)}
+.screen{position:relative;border-radius:14px;overflow:hidden;aspect-ratio:16/10;background:radial-gradient(600px 300px at 10% -10%, #1d2e22 0%, #0a0f0c 40%)}
+.splats{position:absolute;inset:0}
+.splat{fill:var(--accent);opacity:.25}
+.pulse{position:absolute;border-radius:999px;filter:blur(20px);opacity:.6;mix-blend-mode:screen}
+.p1{width:150px;height:150px;left:-20px;top:-20px;background:#22c55e;animation:float 7s ease-in-out infinite}
+.p2{width:200px;height:200px;right:20px;top:40px;background:#a3e635;animation:float 9s ease-in-out infinite reverse}
+.p3{width:120px;height:120px;right:40px;bottom:-30px;background:#86efac;animation:float 12s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-8px) translateX(6px)}}
+/* Features */
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.card{background:linear-gradient(180deg,var(--panel), #0c130f);border:1px solid var(--stroke);border-radius:18px;padding:18px;box-shadow:var(--shadow)}
+.card h3{margin:6px 0}
+.icon{font-size:22px}
+@media (max-width: 960px){.cards{grid-template-columns:repeat(2,1fr)}}
+@media (max-width: 600px){.cards{grid-template-columns:1fr}}
+/* Packages */
+.packages{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.pack{background:linear-gradient(180deg,#0f1712,#0a0f0c);border:1px solid var(--stroke);border-radius:18px;padding:22px;box-shadow:var(--shadow)}
+.pack h3{margin:6px 0}
+.pack .meta{color:var(--muted);font-size:14px;margin-top:-4px}
+.pack ul{margin:10px 0 14px 16px;color:#cad8cf}
+@media (max-width: 960px){.packages{grid-template-columns:1fr}}
+/* Gallery */
+.work-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.work-item{display:block;background:linear-gradient(180deg,var(--panel),#0b120e);border:1px solid var(--stroke);border-radius:18px;overflow:hidden;text-decoration:none;color:var(--text);box-shadow:var(--shadow)}
+.thumb{position:relative;aspect-ratio:16/10;background:linear-gradient(135deg,#0f1a14,#0b120e)}
+.work-meta{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;color:#cfe3d6}
+.thumb .shine{position:absolute;inset:0;background:linear-gradient(110deg, transparent 0%, rgba(255,255,255,.10) 30%, transparent 60%);transform:translateX(-100%);transition:transform .8s ease}
+.work-item:hover .shine{transform:translateX(100%)}
+@media (max-width: 960px){.work-grid{grid-template-columns:1fr}}
+/* Contact */
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:start}
+.contact__form{display:grid;gap:12px;background:linear-gradient(180deg,var(--panel),#0c130f);border:1px solid var(--stroke);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+.contact__form label{display:grid;gap:6px}
+.contact__form input,.contact__form textarea{background:#07100b;border:1px solid #203227;border-radius:12px;padding:12px;color:var(--text);outline:none}
+.contact__form input:focus,.contact__form textarea:focus{border-color:#31533f;box-shadow:0 0 0 3px rgba(163,230,53,.15)}
+.small{color:#b7c5bb;font-size:14px}
+@media (max-width: 960px){.contact{grid-template-columns:1fr}}
+/* Map */
+.map{border-radius:16px;border:1px solid var(--stroke);overflow:hidden;box-shadow:var(--shadow)}
+/* Footer */
+.site-footer{border-top:1px solid var(--stroke);padding:18px 0;background:rgba(0,0,0,.35)}
+.footer{display:flex;align-items:center;justify-content:space-between;gap:14px;color:#cfe3d6}
+.left{display:flex;align-items:center;gap:10px}
+.reveal{opacity:0;transform:translateY(12px);transition:.6s ease all}
+.reveal.visible{opacity:1;transform:none}
+</style><script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "SportsActivityLocation",
+"name": "Tropical Warfare",
+"description": "Paintball center in Basseterre, St. Kitts",
+"telephone": "+1-869-665-6777",
+"email": "skntropical.warfare@gmail.com",
+"address": {
+"@type": "PostalAddress",
+"addressLocality": "Basseterre",
+"addressCountry": "KN"
+},
+"openingHours": "Mo-Su 09:00-17:00",
+"sameAs": [
+"https://www.instagram.com/tropicalwarfare/",
+"https://www.facebook.com/SKNTropicalWarfare/"
+]
+}
+</script></head><body><div class="noise"></div><header class="site-header"><div class="container nav"><a class="brand" href="#top" aria-label="Tropical Warfare home"><svg class="logo" viewBox="0 0 64 64" width="36" height="36" aria-hidden="true"><defs><linearGradient id="lg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#a3e635"/><stop offset="1" stop-color="#145a32"/></linearGradient></defs><rect x="4" y="4" width="56" height="56" rx="12" fill="#0f1511" stroke="#203227"></rect><path d="M18 40l6-16h4l-6 16h-4Z" fill="url(#lg)"></path><circle cx="48" cy="18" r="2" fill="#a3e635"></circle><circle cx="16" cy="46" r="2" fill="#a3e635"></circle></svg><span>Tropical Warfare</span></a><nav class="menu" aria-label="Main"><a href="#features">Features</a><a href="#packages">Packages</a><a href="#gallery">Gallery</a><a href="#contact">Book</a><a href="#faq">FAQ</a></nav><a class="btn btn--accent" href="#contact">Book Now</a><button class="burger" aria-label="Open menu" aria-controls="mobile" aria-expanded="false"><span></span><span></span><span></span></button></div><div id="mobile" class="mobile" hidden><a href="#features">Features</a><a href="#packages">Packages</a><a href="#gallery">Gallery</a><a href="#contact">Book</a><a href="#faq">FAQ</a><a class="btn btn--accent" href="#contact">Book Now</a></div></header><section id="top" class="hero"><div class="container hero__wrap"><div class="hero__copy reveal"><p class="eyebrow">Basseterre • Open Daily 9am–5pm</p><h1>Paintball, island style. <br>Gear up. Squad up. Let’s go.</h1><p class="sub">Run objective game modes with friends, teams, or corporate groups on St. Kitts’ most adrenaline-fueled field. Safety briefings, referees, and solid island vibes.</p><div class="cta"><a class="btn btn--accent" href="tel:+18696656777">Call +1 (869) 665‑6777</a><a class="btn btn--ghost" href="mailto:skntropical.warfare@gmail.com">Email</a><a class="btn btn--ghost" href="https://wa.me/18696656777" target="_blank" rel="noopener">WhatsApp</a></div><ul class="trust" style="display:flex;gap:14px;flex-wrap:wrap;list-style:none;padding:0;margin:16px 0 0;color:#cfe3d6"><li>🎯 Game modes: CTF, Elimination, VIP</li><li>🛡️ Safety-first briefings</li><li>🎥 Group events & parties</li></ul></div><div class="hero__visual reveal"><div class="device"><div class="screen"><svg class="splats" viewBox="0 0 800 500" preserveAspectRatio="none" aria-hidden="true"><g class="splat"><circle cx="120" cy="120" r="90"/></g><g class="splat" style="opacity:.18"><circle cx="580" cy="160" r="120"/></g><g class="splat" style="opacity:.22"><circle cx="420" cy="360" r="80"/></g></svg><div class="pulse p1"></div><div class="pulse p2"></div><div class="pulse p3"></div></div></div><p class="caption" style="color:#b9d6c5;margin-top:8px">Pro staff • Refereed games • All fun</p></div></div></section><section id="features" class="section section--alt"><div class="container"><h2 class="section__title reveal">What’s included</h2><div class="cards"><article class="card reveal"><div class="icon">🪖</div><h3>Gear</h3><p>Marker, mask, and air. Bring closed shoes. Extra paint available.</p></article><article class="card reveal"><div class="icon">👨‍✈️</div><h3>Briefing & refs</h3><p>Safety orientation, game rules, and on-field referees.</p></article><article class="card reveal"><div class="icon">🎉</div><h3>Groups welcome</h3><p>Birthdays, team-builders, stag events — we’ll plan it.</p></article><article class="card reveal"><div class="icon">📸</div><h3>Media</h3><p>Ask about photos or short highlight clips for your squad.</p></article></div></div></section><section id="packages" class="section"><div class="container"><h2 class="section__title reveal">Packages</h2><div class="packages"><div class="pack reveal"><h3>Skirmish</h3><p class="meta">Great for first-timers</p><ul><li>60 minutes field time</li><li>Marker + mask + air</li><li>Refereed game modes</li></ul><a class="btn btn--accent" href="#contact">Book Skirmish</a></div><div class="pack reveal"><h3>Squad Battle</h3><p class="meta">Bigger teams, more rounds</p><ul><li>90 minutes field time</li><li>Gear + refs + objectives</li><li>Perfect for birthdays</li></ul><a class="btn btn--accent" href="#contact">Book Squad Battle</a></div><div class="pack reveal"><h3>Private Field</h3><p class="meta">Exclusive session</p><ul><li>2 hours private access</li><li>Custom game rotation</li><li>Group rates available</li></ul><a class="btn btn--accent" href="#contact">Enquire</a></div></div><p class="small" style="margin-top:12px">Note: Pricing varies by group size and paint. We’ll confirm rates on booking.</p></div></section><section id="gallery" class="section section--alt"><div class="container"><h2 class="section__title reveal">Field vibes</h2><div class="work-grid"><a class="work-item reveal" href="https://www.instagram.com/tropicalwarfare/" target="_blank" rel="noopener"><div class="thumb" style="background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="%230f2419"/><stop offset="1" stop-color="%23204f38"/></linearGradient><radialGradient id="glow" cx="25%" cy="20%" r="60%"><stop offset="0" stop-color="%23b4f25a" stop-opacity="0.35"/><stop offset="1" stop-color="%2332d68a" stop-opacity="0"/></radialGradient></defs><rect width="1600" height="1000" fill="url(%23bg)"/><circle cx="300" cy="220" r="180" fill="url(%23glow)"/><circle cx="1200" cy="320" r="220" fill="url(%23glow)" opacity="0.7"/><g fill="%23b4f25a" opacity="0.28"><circle cx="220" cy="760" r="140"/><circle cx="460" cy="820" r="90"/><circle cx="980" cy="700" r="110"/><circle cx="1340" cy="780" r="160"/></g><g opacity="0.85"><ellipse cx="800" cy="520" rx="420" ry="230" fill="none" stroke="%231c3b2b" stroke-width="26"/><rect x="440" y="470" width="720" height="100" rx="30" fill="%231d4f37" opacity="0.85"/></g><rect x="0" y="860" width="1600" height="140" fill="rgba(10,20,15,0.55)"/><text x="50%" y="938" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="56" fill="%23e6f9ee">Capture the Flag</text></svg>'); background-size:cover; background-position:center;"><div class="shine"></div></div><div class="work-meta"><strong>Instagram</strong><span>@tropicalwarfare</span></div></a><a class="work-item reveal" href="https://www.facebook.com/SKNTropicalWarfare/" target="_blank" rel="noopener"><div class="thumb" style="background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="%230f2419"/><stop offset="1" stop-color="%23204f38"/></linearGradient><radialGradient id="glow" cx="25%" cy="20%" r="60%"><stop offset="0" stop-color="%23b4f25a" stop-opacity="0.35"/><stop offset="1" stop-color="%2332d68a" stop-opacity="0"/></radialGradient></defs><rect width="1600" height="1000" fill="url(%23bg)"/><circle cx="300" cy="220" r="180" fill="url(%23glow)"/><circle cx="1200" cy="320" r="220" fill="url(%23glow)" opacity="0.7"/><g fill="%23b4f25a" opacity="0.28"><circle cx="220" cy="760" r="140"/><circle cx="460" cy="820" r="90"/><circle cx="980" cy="700" r="110"/><circle cx="1340" cy="780" r="160"/></g><g opacity="0.85"><ellipse cx="800" cy="520" rx="420" ry="230" fill="none" stroke="%231c3b2b" stroke-width="26"/><rect x="440" y="470" width="720" height="100" rx="30" fill="%231d4f37" opacity="0.85"/></g><rect x="0" y="860" width="1600" height="140" fill="rgba(10,20,15,0.55)"/><text x="50%" y="938" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="56" fill="%23e6f9ee">VIP Escort</text></svg>'); background-size:cover; background-position:center;"><div class="shine"></div></div><div class="work-meta"><strong>Facebook</strong><span>Tropical Warfare SKN</span></div></a><a class="work-item reveal" href="https://www.tripadvisor.com/Attraction_Review-g147375-d23724728-Reviews-Tropical_Warfare-Basseterre_St_Kitts_St_Kitts_and_Nevis.html" target="_blank" rel="noopener"><div class="thumb" style="background-image:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="%230f2419"/><stop offset="1" stop-color="%23204f38"/></linearGradient><radialGradient id="glow" cx="25%" cy="20%" r="60%"><stop offset="0" stop-color="%23b4f25a" stop-opacity="0.35"/><stop offset="1" stop-color="%2332d68a" stop-opacity="0"/></radialGradient></defs><rect width="1600" height="1000" fill="url(%23bg)"/><circle cx="300" cy="220" r="180" fill="url(%23glow)"/><circle cx="1200" cy="320" r="220" fill="url(%23glow)" opacity="0.7"/><g fill="%23b4f25a" opacity="0.28"><circle cx="220" cy="760" r="140"/><circle cx="460" cy="820" r="90"/><circle cx="980" cy="700" r="110"/><circle cx="1340" cy="780" r="160"/></g><g opacity="0.85"><ellipse cx="800" cy="520" rx="420" ry="230" fill="none" stroke="%231c3b2b" stroke-width="26"/><rect x="440" y="470" width="720" height="100" rx="30" fill="%231d4f37" opacity="0.85"/></g><rect x="0" y="860" width="1600" height="140" fill="rgba(10,20,15,0.55)"/><text x="50%" y="938" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="56" fill="%23e6f9ee">Elimination Rounds</text></svg>'); background-size:cover; background-position:center;"><div class="shine"></div></div><div class="work-meta"><strong>Tripadvisor</strong><span>See reviews</span></div></a></div></section><section id="contact" class="section"><div class="container contact"><div class="contact__copy reveal"><h2 class="section__title">Book your session</h2><p>Open daily <strong>9am–5pm</strong>. Call, message, or use the form:</p><p><strong>Phone:</strong><a href="tel:+18696656777">+1 (869) 665‑6777</a></p><p><strong>Email:</strong><a href="mailto:skntropical.warfare@gmail.com">skntropical.warfare@gmail.com</a></p><p><strong>Instagram:</strong><a href="https://instagram.com/tropicalwarfare" target="_blank" rel="noopener">@tropicalwarfare</a></p><div class="map reveal" style="margin-top:14px"><iframe title="Tropical Warfare on Google Maps" width="100%" height="260" frameborder="0" style="border:0"
+src="https://www.google.com/maps?q=Tropical%20Warfare%20St%20Kitts&output=embed" allowfullscreen></iframe></div></div><form name="tw-booking" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="contact__form reveal"><input type="hidden" name="form-name" value="tw-booking" /><p class="hidden"><label>Don’t fill this out: <input name="bot-field" /></label></p><label><span>Your name</span><input type="text" name="name" required placeholder="Your full name"></label><label><span>Email</span><input type="email" name="email" required placeholder="you@example.com"></label><label><span>Phone / WhatsApp</span><input type="text" name="phone" placeholder="+1 869 000 0000"></label><label><span>Group size & preferred date</span><textarea name="message" rows="5" placeholder="How many players? Which date/time works?"></textarea></label><button class="btn btn--accent" type="submit">Request booking</button><p class="small">Submitting this form sends your request to the Tropical Warfare team.</p></form></div></section><section id="faq" class="section section--alt"><div class="container"><h2 class="section__title reveal">FAQ</h2><details class="card reveal"><summary>What should we wear?</summary><p>Closed-toe shoes and comfortable outdoor clothing you don’t mind getting paint on. We recommend long sleeves/pants.</p></details><details class="card reveal"><summary>Is it safe?</summary><p>Yes. You’ll get a safety briefing, and our referees supervise games. Masks must stay on in the field at all times.</p></details><details class="card reveal"><summary>Do you host private events?</summary><p>Absolutely — birthdays, bachelor/bachelorette, and team-building. Use the form and we’ll plan the best format.</p></details></div></section><footer class="site-footer"><div class="container footer"><div class="left"><svg class="logo" viewBox="0 0 64 64" width="24" height="24" aria-hidden="true"><defs><linearGradient id="lg2" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#a3e635"/><stop offset="1" stop-color="#145a32"/></linearGradient></defs><rect x="4" y="4" width="56" height="56" rx="12" fill="#0f1511" stroke="#203227"></rect><path d="M18 40l6-16h4l-6 16h-4Z" fill="url(#lg2)"></path></svg><span>© <span id="year"></span> Tropical Warfare. All rights reserved.</span></div><div class="right"><span>Open daily 9am–5pm • Powered by LaunchOne</span></div></div></footer><script>
+// Mobile menu
+const burger = document.querySelector('.burger');
+const mobile = document.getElementById('mobile');
+if (burger && mobile){
+burger.addEventListener('click', () => {
+const expanded = burger.getAttribute('aria-expanded') === 'true';
+burger.setAttribute('aria-expanded', String(!expanded));
+mobile.hidden = !mobile.hidden;
+});
+}
+// Reveal
+const io = new IntersectionObserver((entries) => {
+entries.forEach(e => {
+if (e.isIntersecting) {
+e.target.classList.add('visible');
+io.unobserve(e.target);
+}
+});
+}, { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+// Year
+const y = document.getElementById('year');
+if (y) y.textContent = new Date().getFullYear();
+</script></body></html>
